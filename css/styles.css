@@ -1,9 +1,9 @@
 body {
+  font-family: "Open Sans", sans-serif;
   position: relative;
   background: #eee;
-  margin: 0;
-
-  }
+  padding: 20px;
+}
 
 .overlay {
   position: absolute;
@@ -24,11 +24,11 @@ body {
   border-radius: 5px;
   padding: 30px 20px;
   text-align: center;
-  
+
 }
 
 .modal hr {
- border-color: #fefefe;
+  border-color: #fefefe;
 
 }
 
@@ -41,6 +41,7 @@ body {
   text-align: center;
 
 }
+
 .modal .address {
   text-align: center;
 }
@@ -50,6 +51,8 @@ body {
   right: 15px;
   top: 5px;
   cursor: pointer;
+  border: none;
+  background-color: transparent;  
 }
 
 .hidden {
@@ -57,13 +60,13 @@ body {
 }
 
 .grid-container {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
 }
 
 .card {
-  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   background: white;
   color: #737373;
@@ -79,7 +82,7 @@ h1 {
   margin: 10 0 30px 10px;
   text-transform: uppercase;
   text-align: left;
-  
+
 }
 
 .avatar {
@@ -87,25 +90,23 @@ h1 {
   border: 2px solidß;
   width: 130px;
   height: 130px;
-  margin-right: 20px;  
- }
+  margin-right: 20px;
+}
 
- .email {
+.email {
   margin: 0 0 10px;
   text-align: left;
   font-size: 1.25rem;
   text-transform: capitalize;
-  color:#8e8e8e;
+  color: #8e8e8e;
 
 }
-.address{
-  margin-bottom: 10;  
+
+.address {
+  margin-bottom: 10;
   text-align: left;
   font-size: 1.25rem;
   text-transform: capitalize;
-  color:#8e8e8e;
+  color: #8e8e8e;
 
 }
-
- 
- 
