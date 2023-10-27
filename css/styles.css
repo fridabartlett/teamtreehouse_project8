@@ -79,7 +79,7 @@ body {
 }
 
 h1 {
-  margin: 10 0 30px 10px;
+  margin: 10px 0 30px 10px;
   text-transform: uppercase;
   text-align: left;
 
@@ -87,7 +87,7 @@ h1 {
 
 .avatar {
   border-radius: 50%;
-  border: 2px solidß;
+  border: 2px solid;
   width: 130px;
   height: 130px;
   margin-right: 20px;
@@ -103,7 +103,7 @@ h1 {
 }
 
 .address {
-  margin-bottom: 10;
+  margin-bottom: 10px;
   text-align: left;
   font-size: 1.25rem;
   text-transform: capitalize;
